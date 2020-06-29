@@ -1,24 +1,8 @@
 .link-Li {
-    font-size: 15px;
+jacoblynch-transform-2
+    transition: all .2s ease-in-out;
 }
 
-.link-Li:active{
-
-    animation-name: example;
-    animation-duration: 5s;
-
-}
-
-
-
-@keyframes example {
-    
-    0% {
-        font-size: 15px;
-    }
-    
-    100% {
-        font-size: x-large;
-    }
-
+.link-Li:hover {
+    transform: scale(1.2);
 }
