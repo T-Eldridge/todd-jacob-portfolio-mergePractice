@@ -1,0 +1,7 @@
+.link-Li {
+    transition: all .2s ease-in-out;
+}
+
+.link-Li:hover {
+    transform: scale(1.2);
+}
