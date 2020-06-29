@@ -6,3 +6,30 @@ jacoblynch-transform-2
 .link-Li:hover {
     transform: scale(1.2);
 }
+
+//***
+.link-Li {
+    font-size: 15px;
+}
+
+.link-Li:active{
+
+    animation-name: example;
+    animation-duration: 5s;
+
+}
+
+
+
+@keyframes example {
+    
+    0% {
+        font-size: 15px;
+    }
+    
+    100% {
+        font-size: x-large;
+    }
+
+}
+//*** Edited out to merge
